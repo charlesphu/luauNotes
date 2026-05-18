@@ -72,12 +72,7 @@ Module side
 local PlayerTracker = {}
 PlayerTracker.__index = PlayerTracker
 
-export type Class = {
-    player: Player,
-    score: number,
-    ingInv: {[string]: number},
-    tools: {any},
-}
+export type Class = typeof(setmetatable({}, PlayerTracker))
 
 function PlayerTracker.New(player: Player): Class
     local self = setmetatable({}, PlayerTracker)
