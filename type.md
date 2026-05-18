@@ -1,5 +1,8 @@
 # Luau Typing Notes
 
+## Enforce strict typing
+use `--!strict` at top of file
+
 ## Basic Types
 
 ```lua
