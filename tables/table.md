@@ -1,5 +1,5 @@
 # Tables
-- Acts like a dictionary
+Acts like a dictionary
 
 ## Declaration
 - `table = {}`
@@ -35,3 +35,4 @@
 - Piars iterates through all the keys in unspecified order
     - includes non-numeri keys
     - use for associatvie arrays / tables with gaps
+    
